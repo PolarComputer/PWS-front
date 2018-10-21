@@ -1,0 +1,88 @@
+img {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+.block1 {
+  padding-bottom: 40%;
+  background: url('../img/infinity2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.block2 {
+  padding-bottom: 50%;
+  background: url('../img/infinity1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.block3 {
+  padding-bottom: 50%;
+  background: url('../img/infinity3.png');
+    background-size: cover;
+  background-position: center;
+}
+
+.block4 {
+  background: #3D3D3D;
+}
+
+.abs-text {
+  /*position: absolute;*/
+  padding: 30px;
+}
+
+
+.block-s {
+  /*padding: 0px;*/
+}
+
+.block-pd0 {
+  padding: 0px;
+}
+
+.float-tile {
+  transform: scale(1.05);
+  z-index: 9;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+.hover-large img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.hover-large img {
+  transition: all 0.5s ease;
+}
+
+.hover-large {
+  padding: 50px;
+}
+
+.motherboard {
+  height: auto;
+  min-height: 100%;
+  width: auto;
+  min-width: 100%;
+}
+
+
+.design-card {
+  padding: 100px 50px;
+}
+
+
+@media (min-width: 992px) {
+  #mainNav {
+    opacity: 0;
+  }
+  #mainNav.navbar-shrink {
+      opacity: 1 !important;
+  }
+}
